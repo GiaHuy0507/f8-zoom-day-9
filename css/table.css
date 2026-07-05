@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", serif;
+  background: #fff;
+}
+
+.table-container {
+  max-width: 1080px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  border-collapse: collapse;
+  border: 3px solid #333;
+}
+.table strong {
+  font-weight: 700;
+}
+.table th,
+.table td {
+  border: 2px solid #333;
+  padding: 6px 12px;
+  font-size: 18px;
+}
+.table th {
+  font-weight: 700;
+}
+
+.table thead th {
+  text-align: center;
+  vertical-align: middle;
+}
+.table thead tr:last-child td {
+  text-align: center;
+}
+.table tbody th:first-child {
+  text-align: left;
+}
+.sex {
+  text-align: left !important;
+}
+.table tbody td {
+  text-align: right;
+}
+.table tr:nth-of-type(2) th {
+  border: 3px solid black;
+}
+.table thead tr:nth-of-type(4) th,
+.table thead tr:nth-of-type(4) td {
+  border-bottom: 3px solid black;
+}
+.table thead tr:nth-of-type(3) th:nth-of-type(1),
+.table thead tr:nth-of-type(4) td:nth-of-type(1) {
+  border-right: 3px solid black;
+}
+.table tbody tr:nth-of-type(1) th,
+tbody tr:nth-of-type(3) th,
+tbody tr:nth-of-type(3) td {
+  border-bottom: 3px solid black;
+}
+.table tbody tr:nth-of-type(1) td:nth-of-type(1),
+tbody tr:nth-of-type(2) td:nth-of-type(1),
+tbody tr:nth-of-type(3) th:nth-of-type(1),
+tbody tr:nth-of-type(4) td:nth-of-type(1),
+tbody tr:nth-of-type(5) td:nth-of-type(1),
+tbody tr:nth-of-type(6) th:nth-of-type(1),
+tbody tr:nth-of-type(7) th:nth-of-type(1),
+tbody tr:nth-of-type(8) th:nth-of-type(1),
+tbody tr:nth-of-type(9) th:nth-of-type(1),
+tbody tr:nth-of-type(10) th:nth-of-type(1) {
+  border-right: 3px solid black;
+}
+.table tbody tr:nth-of-type(4) th,
+tbody tr:nth-of-type(6) th,
+tbody tr:nth-of-type(6) td {
+  border-bottom: 3px solid black;
+}
+.table tbody tr:nth-of-type(1) td:nth-of-type(3),
+tbody tr:nth-of-type(2) td:nth-of-type(3),
+tbody tr:nth-of-type(3) td:nth-of-type(2),
+tbody tr:nth-of-type(4) td:nth-of-type(3),
+tbody tr:nth-of-type(5) td:nth-of-type(3),
+tbody tr:nth-of-type(6) td:nth-of-type(2),
+tbody tr:nth-of-type(7) td:nth-of-type(2),
+tbody tr:nth-of-type(8) td:nth-of-type(2),
+tbody tr:nth-of-type(9) td:nth-of-type(2),
+tbody tr:nth-of-type(10) td:nth-of-type(2) {
+  border-right: 3px solid black;
+}
