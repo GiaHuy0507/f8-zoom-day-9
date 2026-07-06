@@ -63,36 +63,107 @@ body {
   border-right: 3px solid black;
 }
 .table tbody tr:nth-of-type(1) th,
-tbody tr:nth-of-type(3) th,
-tbody tr:nth-of-type(3) td {
+.table tbody tr:nth-of-type(3) th,
+.table tbody tr:nth-of-type(3) td {
   border-bottom: 3px solid black;
 }
 .table tbody tr:nth-of-type(1) td:nth-of-type(1),
-tbody tr:nth-of-type(2) td:nth-of-type(1),
-tbody tr:nth-of-type(3) th:nth-of-type(1),
-tbody tr:nth-of-type(4) td:nth-of-type(1),
-tbody tr:nth-of-type(5) td:nth-of-type(1),
-tbody tr:nth-of-type(6) th:nth-of-type(1),
-tbody tr:nth-of-type(7) th:nth-of-type(1),
-tbody tr:nth-of-type(8) th:nth-of-type(1),
-tbody tr:nth-of-type(9) th:nth-of-type(1),
-tbody tr:nth-of-type(10) th:nth-of-type(1) {
+.table tbody tr:nth-of-type(2) td:nth-of-type(1),
+.table tbody tr:nth-of-type(3) th:nth-of-type(1),
+.table tbody tr:nth-of-type(4) td:nth-of-type(1),
+.table tbody tr:nth-of-type(5) td:nth-of-type(1),
+.table tbody tr:nth-of-type(6) th:nth-of-type(1),
+.table tbody tr:nth-of-type(7) th:nth-of-type(1),
+.table tbody tr:nth-of-type(8) th:nth-of-type(1),
+.table tbody tr:nth-of-type(9) th:nth-of-type(1),
+.table tbody tr:nth-of-type(10) th:nth-of-type(1) {
   border-right: 3px solid black;
 }
 .table tbody tr:nth-of-type(4) th,
-tbody tr:nth-of-type(6) th,
-tbody tr:nth-of-type(6) td {
+.table tbody tr:nth-of-type(6) th,
+.table tbody tr:nth-of-type(6) td {
   border-bottom: 3px solid black;
 }
 .table tbody tr:nth-of-type(1) td:nth-of-type(3),
-tbody tr:nth-of-type(2) td:nth-of-type(3),
-tbody tr:nth-of-type(3) td:nth-of-type(2),
-tbody tr:nth-of-type(4) td:nth-of-type(3),
-tbody tr:nth-of-type(5) td:nth-of-type(3),
-tbody tr:nth-of-type(6) td:nth-of-type(2),
-tbody tr:nth-of-type(7) td:nth-of-type(2),
-tbody tr:nth-of-type(8) td:nth-of-type(2),
-tbody tr:nth-of-type(9) td:nth-of-type(2),
-tbody tr:nth-of-type(10) td:nth-of-type(2) {
+.table tbody tr:nth-of-type(2) td:nth-of-type(3),
+.table tbody tr:nth-of-type(3) td:nth-of-type(2),
+.table tbody tr:nth-of-type(4) td:nth-of-type(3),
+.table tbody tr:nth-of-type(5) td:nth-of-type(3),
+.table tbody tr:nth-of-type(6) td:nth-of-type(2),
+.table tbody tr:nth-of-type(7) td:nth-of-type(2),
+.table tbody tr:nth-of-type(8) td:nth-of-type(2),
+.table tbody tr:nth-of-type(9) td:nth-of-type(2),
+.table tbody tr:nth-of-type(10) td:nth-of-type(2) {
   border-right: 3px solid black;
+}
+
+/* ---------------ADMIN TABLE------------ */
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-table {
+  max-width: 1200px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+.admin-table th {
+  font-weight: bold;
+  background-color: #dadada;
+}
+.admin-table th,
+.admin-table td {
+  font-size: 16px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+.admin-table .avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.admin-table .avatar-wrapper {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.admin-table i {
+  position: absolute;
+  top: 18px;
+  right: -2px;
+  background-color: #fff;
+  color: blue;
+  font-size: 14px;
+  border-radius: 50%;
+}
+.admin-table .active {
+  padding: 5px 10px;
+  color: #00ff04;
+  background-color: #b1cdba;
+  border-radius: 5px;
+  border: none;
+}
+.admin-table .not-found {
+  padding: 5px 10px;
+  color: #e6e600;
+  background-color: #afb38d;
+  border-radius: 5px;
+  border: none;
+}
+.admin-table .center {
+  text-align: center;
+}
+.admin-table .left {
+  text-align: left;
+}
+.admin-table .right {
+  text-align: right;
 }
